@@ -1,0 +1,29 @@
+//Assign User Name
+git config --global user.name 'deozone11-beep'
+
+//Assign User Email
+git config --global user.email 'deozone11@gmail.com'
+
+//Assign User Name Show panna
+git config user.name
+
+//Assign User Email Show panna
+git config user.email
+
+//Assign defaultBranch name
+git config --global init.defaultBranch main
+
+//Git repository create panna
+git init
+
+//file status therinjika 
+git status
+
+//Selected files ha mattum add panna file name use pannanum
+git add readme.md
+
+//file save pannanumna
+git commit -m 'readme'
+
+//log check panna
+git log
