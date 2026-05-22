@@ -27,3 +27,12 @@ git commit -m 'readme'
 
 //log check panna
 git log
+
+//log la irunthu edutha id ha vatchi palaya version ku poganumna
+git checkout 0f431bbbe5cd96fe98c4895049d0403c86a824df 
+
+//ida use panna anda id commit aana anda level ku adavathu anda version ku poidum
+git checkout main
+//incase pogalana and partial editla irunda value palaya edathuku pogathu so force checkout kudukanum
+git checkout -f main
+//ida kudutha force reverse aagum palaya method ku pogum
